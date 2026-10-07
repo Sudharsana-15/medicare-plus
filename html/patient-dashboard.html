@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Dashboard - MediCare Plus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <a href="index.html" class="navbar-brand"><i class="fas fa-heartbeat"></i> MediCare<span>+</span></a>
+      </div>
+      <ul class="sidebar-menu">
+        <li><a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+        <li><a href="#"><i class="fas fa-calendar-check"></i> My Appointments</a></li>
+        <li><a href="#"><i class="fas fa-file-medical"></i> Medical Records</a></li>
+        <li><a href="#"><i class="fas fa-pills"></i> Prescriptions</a></li>
+        <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+        <li><a href="index.html" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+      </ul>
+    </aside>
+    <div class="main-content">
+      <div class="dashboard-header">
+        <h2>Dashboard</h2>
+        <div class="user-profile">
+          <span>Welcome, <strong id="patientName">Patient</strong></span>
+        </div>
+      </div>
+      <div class="grid grid-4 mb-4">
+        <div class="dashboard-stat-card">
+          <div><h4>Upcoming</h4><h2>2</h2></div>
+          <i class="fas fa-calendar-alt" style="font-size:2rem;color:#0077B6"></i>
+        </div>
+        <div class="dashboard-stat-card success">
+          <div><h4>Past Visits</h4><h2>5</h2></div>
+          <i class="fas fa-check-circle" style="font-size:2rem;color:#28A745"></i>
+        </div>
+        <div class="dashboard-stat-card warning">
+          <div><h4>Prescriptions</h4><h2>3</h2></div>
+          <i class="fas fa-prescription" style="font-size:2rem;color:#FFC107"></i>
+        </div>
+        <div class="dashboard-stat-card danger">
+          <div><h4>Reports</h4><h2>8</h2></div>
+          <i class="fas fa-file-medical-alt" style="font-size:2rem;color:#DC3545"></i>
+        </div>
+      </div>
+      <!-- Upcoming Appointments Table -->
+      <div class="card mb-4" style="padding:25px">
+        <h3 class="mb-3">Upcoming Appointments</h3>
+        <div class="table-responsive">
+          <table class="table table-striped table-hover">
+            <thead><tr><th>Doctor</th><th>Department</th><th>Date</th><th>Time</th><th>Status</th><th>Action</th></tr></thead>
+            <tbody>
+              <tr><td>Dr. Arun Kumar</td><td>Cardiology</td><td>Oct 10, 2026</td><td>10:00 AM</td><td><span class="badge badge-warning">Pending</span></td><td><button class="btn btn-sm btn-outline">Cancel</button></td></tr>
+              <tr><td>Dr. Priya Sharma</td><td>Neurology</td><td>Oct 15, 2026</td><td>2:30 PM</td><td><span class="badge badge-success">Confirmed</span></td><td><button class="btn btn-sm btn-outline">Cancel</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Quick Actions -->
+      <div class="grid grid-3">
+        <a href="appointments.html" class="card" style="padding:25px;text-align:center;text-decoration:none">
+          <i class="fas fa-calendar-plus" style="font-size:2rem;color:#0077B6;margin-bottom:10px"></i>
+          <h4>Book Appointment</h4>
+        </a>
+        <a href="#" class="card" style="padding:25px;text-align:center;text-decoration:none">
+          <i class="fas fa-file-alt" style="font-size:2rem;color:#00B4D8;margin-bottom:10px"></i>
+          <h4>View Reports</h4>
+        </a>
+        <a href="#" class="card" style="padding:25px;text-align:center;text-decoration:none">
+          <i class="fas fa-user-edit" style="font-size:2rem;color:#28A745;margin-bottom:10px"></i>
+          <h4>Update Profile</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
