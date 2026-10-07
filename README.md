@@ -57,54 +57,6 @@ This project was developed as part of the **Web Technology Lab** coursework, dem
 | **Icons**    | Font Awesome 6.4                   |
 | **Fonts**    | Google Fonts (Poppins, Open Sans)  |
 
----
-
-## 📁 Project Structure
-
-```
-medicare-plus/
-├── index.html                  # Landing page
-├── about.html                  # About us page
-├── services.html               # Services listing
-├── doctors.html                # Doctor directory
-├── appointments.html           # Appointment booking (multi-step form)
-├── contact.html                # Contact form & info
-├── login.html                  # Patient login
-├── register.html               # Patient registration
-├── patient-dashboard.html      # Patient dashboard
-│
-├── css/
-│   └── style.css               # Main stylesheet (responsive)
-│
-├── js/
-│   └── script.js               # Client-side functionality
-│
-├── php/
-│   ├── config.php              # Database connection & helpers
-│   ├── register.php            # Registration handler
-│   ├── login.php               # Authentication handler
-│   ├── logout.php              # Session destruction
-│   ├── book_appointment.php    # Appointment booking handler
-│   ├── contact_submit.php      # Contact form handler
-│   ├── newsletter_subscribe.php# Newsletter subscription
-│   ├── dashboard.php           # Patient dashboard (dynamic)
-│   ├── get_appointments.php    # Fetch appointments (JSON)
-│   ├── cancel_appointment.php  # Cancel appointment
-│   ├── update_profile.php      # Profile update handler
-│   └── admin/
-│       └── dashboard.php       # Admin panel
-│
-├── sql/
-│   └── database.sql            # Database schema & seed data
-│
-├── images/                     # Image assets
-├── uploads/                    # User uploads (profile images)
-├── README.md                   # Project documentation
-├── .gitignore                  # Git ignore rules
-└── LICENSE                     # MIT License
-```
-
----
 
 ## 🚀 Installation & Setup
 
