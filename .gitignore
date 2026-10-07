@@ -1,0 +1,49 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+vendor/
+
+# User uploads (keep directory structure)
+uploads/*
+!uploads/.gitkeep
+
+# Editor files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# IDE directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# Compiled files
+*.class
+*.o
+*.pyc
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# System files
+*.exe
+*.dll
