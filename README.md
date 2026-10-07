@@ -156,19 +156,6 @@ In the traditional healthcare system, patients face several challenges:
 
 ---
 
-## 👤 Author
-
-**Student Name** — Web Technology Lab Project  
-Department of Computer Science and Engineering  
-Academic Year 2026-2027
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgments
 
@@ -177,6 +164,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - [XAMPP](https://www.apachefriends.org/) for the local development environment
 - Course faculty for guidance and project requirements
 
----
 
-> **Note:** This project was developed for educational purposes as part of the Web Technology Lab curriculum. It demonstrates both static and dynamic web development concepts applied to a real-world healthcare management scenario.
